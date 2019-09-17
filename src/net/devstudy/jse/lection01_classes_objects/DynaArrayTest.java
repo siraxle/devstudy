@@ -9,5 +9,7 @@ public class DynaArrayTest {
             arr.add(i);
         }
         System.out.println(Arrays.toString(arr.toArray()));
+        arr.remove(5);
+        System.out.println(Arrays.toString(arr.toArray()));
     }
 }
