@@ -45,8 +45,12 @@ public class StackArray {
 
     public static void main(String[] args) {
         StackArray stack = new StackArray(5);
+        System.out.println(stack.size);
         System.out.println(stack.top);
+        stack.push(6);
         stack.push(5);
+        stack.push(4);
+        stack.push(3);
         stack.push(2);
         stack.push(1);
         System.out.println(stack.pick());
