@@ -25,25 +25,15 @@ public class DynaArray {
     }
 
     public int remove(int index){
-        assert index >= 0 && index < this.array.length;
-        int[] temp = new int[this.array.length - 1];
-        int j;
-        int result = 0;
-        for (int i = 0; i < this.array.length; i++){
-            if (i == index) {
-                result = this.array[i];
-                continue;
-            }
-            if (i < index){
-                j = i;
-            }else {
-                j = i - 1;
-            }
-            temp[j] = this.array[i];
-        }
-        this.size--;
-        this.array = temp;
-        return result;
+       if (index < size){
+           int value = array[index];
+           for (int i = index; i < size - 1; i++){
+               array[i] = array[i+1];
+           }
+           array[--size] = 0;
+           return value;
+       }
+       return 0;
     }
 
    public int get(int index) {

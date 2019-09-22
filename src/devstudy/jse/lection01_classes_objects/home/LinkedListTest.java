@@ -1,17 +1,38 @@
 package devstudy.jse.lection01_classes_objects.home;
 
+import java.util.Arrays;
+
 public class LinkedListTest {
+
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
-        for(int i=0;i<10;i++){
-            linkedList.add(i);
+        LinkedList list = new LinkedList();
+
+        for (int i = 0; i < 5; i++) {
+            list.add(i);
         }
-        linkedList.toArray(linkedList);
-        //arr.get(3);
-        linkedList.remove(0);
-        linkedList.toArray(linkedList);
-        linkedList.remove(4);
-        linkedList.toArray(linkedList);
+
+        System.out.println("size = " + list.size());
+        System.out.println("list[3] = " + list.get(3));
+        System.out.println(Arrays.toString(list.toArray()));
+
+        list.remove(0);
+        list.remove(3);
+        System.out.println(Arrays.toString(list.toArray()));
+
+        list.add(4);
+        list.add(5);
+        System.out.println(Arrays.toString(list.toArray()));
+        list.remove(2);
+        System.out.println(Arrays.toString(list.toArray()));
+
+        list.remove(0);
+        list.remove(0);
+        System.out.println(Arrays.toString(list.toArray()));
+
+        list.remove(0);
+        list.remove(0);
+        System.out.println(Arrays.toString(list.toArray()));
 
     }
+
 }

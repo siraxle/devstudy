@@ -1,14 +1,16 @@
 package devstudy.jse.lection01_classes_objects.home;
 
-public class Queue {
-    private LinkedList list = new LinkedList();
+import net.devstudy.jse.lection01_classes_objects.DynaArray;
+
+public class Stack {
+    private DynaArray list = new DynaArray();
 
     public void add(int element) {
         list.add(element);
     }
 
     public int get() {
-        return list.remove(0);
+        return list.remove(list.size() - 1);
     }
 
     public int size() {

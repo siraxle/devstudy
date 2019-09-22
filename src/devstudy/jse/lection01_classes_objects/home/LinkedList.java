@@ -20,62 +20,60 @@ public class LinkedList {
         }
     }
     public int get(int index) {
-        int temp = 0;
-        if (index == 0){
-            temp = first.getValue();
-            return temp;
-        } else {
-            int i = 0;
-            Item item = first.getNext();
-            while (i < index){
-                temp = item.getValue();
-                item = item.getNext();
+        Item current = findItem(index);
+        return current != null ? current.getValue() : 0;
+    }
+
+    private Item findItem(int index) {
+        int i = 0;
+        Item current = first;
+        while (i < size) {
+            if (i == index) {
+                return current;
+            } else {
                 i++;
+                current = current.getNext();
             }
         }
-        return temp;
+        return null;
     }
+
     public int remove(int index) {
-        assert index >= 0;
-        //remove first element
-        if (index == 0){
-            Item temp = first;
-            first = temp.getNext();
-            first.setNext(null);
-            size--;
-            System.out.println(temp.getValue());
-            return temp.getValue();
-        }
-        //remove from middle and end
-        else if (index <= size){
-            if (index == size-1){
-                Item temp = last;
-                last.getPrevious().setNext(null);
-                last.setPrevious(null);
-                size--;
-                System.out.println(temp.getValue());
-                return temp.getValue();
-            }
-            Item temp = first;
-            int i = 0;
-            int res = 0;
-            while (i <= index){
-                if (i == index){
-                    temp.getPrevious().setNext(temp.getNext());
-                    temp.getNext().setPrevious(temp.getPrevious());
-                    res = temp.getValue();
-                    temp.setPrevious(null);
-                    temp.setNext(null);
-                }
-                temp = temp.getNext();
-                i++;
-            }
-            size--;
-            System.out.println(res);
-            return res;
-        }
-        return 0;
+        Item current = findItem(index);
+        return current != null ? removeCurrent(current) : 0;
     }
+
+    private int removeCurrent(Item current) {
+        Item prev = current.getPrevious();
+        Item next = current.getNext();
+        if (next != null){
+            removeCurrentFromNext(next, prev);
+        }
+        if (prev != null){
+            removeCurrentFromPrevious(next, prev);
+        }
+        size--;
+        if (size == 0) {
+            first = last = null;
+        }
+        return current.getValue();
+    }
+
+    private void removeCurrentFromPrevious(Item next, Item prev) {
+        prev.setNext(next);
+        if (prev == null){
+            first = next;
+        }
+    }
+
+    private void removeCurrentFromNext(Item next, Item prev) {
+        next.setPrevious(prev);
+        if(prev == null){
+            first = next;
+        }
+    }
+
+
     public int size(){
         return size;
     }
@@ -83,16 +81,14 @@ public class LinkedList {
         size = 0;
         first = last = null;
     }
-    public int[] toArray(LinkedList linkedList){
-        Item item = linkedList.first;
-        int[] array = new int[size()];
+    public int[] toArray() {
+        int[] array = new int[size];
         int i = 0;
-        while (i <= size - 1){
-            array[i] = item.getValue();
-            item = item.getNext();
-            i++;
+        Item current = first;
+        while (i < size) {
+            array[i++] = current.getValue();
+            current = current.getNext();
         }
-        System.out.println(Arrays.toString(array));
         return array;
     }
 
