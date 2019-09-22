@@ -1,6 +1,5 @@
 package devstudy.jse.lection01_classes_objects.home;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class LinkedList {
@@ -37,6 +36,7 @@ public class LinkedList {
         return temp;
     }
     public int remove(int index) {
+        assert index >= 0;
         //remove first element
         if (index == 0){
             Item temp = first;
@@ -45,7 +45,9 @@ public class LinkedList {
             size--;
             System.out.println(temp.getValue());
             return temp.getValue();
-        } else if (index <= size){
+        }
+        //remove from middle and end
+        else if (index <= size){
             if (index == size-1){
                 Item temp = last;
                 last.getPrevious().setNext(null);
@@ -83,7 +85,7 @@ public class LinkedList {
     }
     public int[] toArray(LinkedList linkedList){
         Item item = linkedList.first;
-        int[] array = new int[10];
+        int[] array = new int[size()];
         int i = 0;
         while (i <= size - 1){
             array[i] = item.getValue();

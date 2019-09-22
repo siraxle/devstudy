@@ -8,9 +8,9 @@ public class LinkedListTest {
         }
         linkedList.toArray(linkedList);
         //arr.get(3);
-        linkedList.remove(3);
-        linkedList.toArray(linkedList);
         linkedList.remove(0);
+        linkedList.toArray(linkedList);
+        linkedList.remove(4);
         linkedList.toArray(linkedList);
 
     }

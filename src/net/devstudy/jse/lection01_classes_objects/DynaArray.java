@@ -44,7 +44,6 @@ public class DynaArray {
         this.size--;
         this.array = temp;
         return result;
-
     }
 
    public int get(int index) {
