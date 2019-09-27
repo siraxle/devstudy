@@ -1,6 +1,10 @@
 package net.devstudy.jse.lection02_classes_objects;
 
 
+import devstudy.jse.lection02_classes_objects.home.Stack;
+
+import java.util.Objects;
+
 public class LinkedList extends DataSet{
 
     private Item first;
@@ -93,6 +97,28 @@ public class LinkedList extends DataSet{
             current = current.getNext();
         }
         return array;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || this.getClass() != o.getClass()) return false;
+        LinkedList that = (LinkedList) o;
+        if (this.size() != that.size()) return false;
+        int[] arr1 = this.toArray();
+        int[] arr2 = that.toArray();
+        for (int i = 0; i < this.size(); i++){
+            if (arr1[i] != arr2[i]){
+                return false;
+            }
+        }
+        return true;
+        //for (int i = 0; i < this.size(); i++){
+         //   if (this.get(i) != linkedList.get(i)){
+           //     return false;
+            //}
+       // }
+        //return true;
     }
 
 }

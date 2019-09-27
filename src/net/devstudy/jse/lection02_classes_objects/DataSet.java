@@ -59,5 +59,4 @@ public class DataSet {
         return Arrays.toString(toArray());
     }
 
-
 }

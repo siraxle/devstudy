@@ -14,10 +14,10 @@ public class DataStructure {
         return 0;
     }
     public boolean isEmpty(){ // true, если набор пустой
-        if (size() == 0){
-            return true;
-        } else return false;
+        return  (size() == 0);
     }
-
+    public int[] toArray(){
+        return null;
+    }
 
 }

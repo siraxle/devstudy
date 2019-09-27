@@ -90,12 +90,4 @@ public class LinkedList {
         return array;
     }
 
-    @Override
-    public String toString() {
-        return "LinkedList{" +
-                "first=" + first +
-                ", last=" + last +
-                ", size=" + size +
-                '}';
-    }
 }
