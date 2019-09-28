@@ -1,7 +1,8 @@
-package net.devstudy.jse.lection01_classes_objects;
+package devstudy.jse.lection02_classes_objects.home;
 
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class DynaArray {
 
@@ -54,4 +55,19 @@ public class DynaArray {
         return Arrays.copyOf(array, size);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        DynaArray that = (DynaArray) o;
+        return this.size == that.size &&
+                Arrays.equals(this.array, that.array);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(size);
+        result = 31 * result + Arrays.hashCode(array);
+        return result;
+    }
 }

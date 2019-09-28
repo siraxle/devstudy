@@ -2,13 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b368dfe-37ac-4f56-95e8-97553d5880da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/DataStructure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/DataStructureTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/DynaArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_classes_objects/home/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/DataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/DataStructureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/DynaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_classes_objects/home/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/DataSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/DynaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/ForeignStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/ForeignStudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/ImmutableDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/OverloadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/AutoBoxingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DataSetAnonymTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DataSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DynaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StaticFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StaticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/DynaArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/DynaArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/LinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/QueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/StackArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/StackArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/StackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DynaArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DynaArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DynaArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DynaArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_classes_objects/ForeignStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_classes_objects/ForeignStudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_classes_objects/ForeignStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_classes_objects/ForeignStudentTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,16 +85,28 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568738156416" />
-    <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.devstudy.jse.lection03_classes_static" />
+      <recent name="devstudy.jse.lection02_classes_objects.home" />
+      <recent name="net.devstudy.jse.lection02_classes_objects" />
       <recent name="devstudy.jse.lection01_classes_objects.home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Evgeney\IdeaProjects\devstudy-jse\src\net\devstudy\jse\lection03_classes_static" />
+      <recent name="C:\Users\EEfremov\IdeaProjects\devstudy\src\devstudy\jse\lection02_classes_objects\home" />
+      <recent name="C:\Users\EEfremov\IdeaProjects\devstudy\src\net\devstudy\jse\lection02_classes_objects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,13 +121,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackTest">
-    <configuration name="DynaArrayTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection01_classes_objects.home.DynaArrayTest" />
+  <component name="RunManager" selected="Application.AutoBoxingExample">
+    <configuration name="AutoBoxingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.devstudy.jse.lection03_classes_static.AutoBoxingExample" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="devstudy.jse.lection01_classes_objects.home.*" />
+          <option name="PATTERN" value="net.devstudy.jse.lection03_classes_static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataStructureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection02_classes_objects.home.DataStructureTest" />
+      <module name="devstudy-jse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="devstudy.jse.lection02_classes_objects.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.devstudy.jse.lection03_classes_static.EmployeeTest" />
+      <module name="devstudy-jse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.devstudy.jse.lection03_classes_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,38 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection01_classes_objects.home.QueueTest" />
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.devstudy.jse.lection03_classes_static.StaticTest" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="devstudy.jse.lection01_classes_objects.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection01_classes_objects.home.StackArray" />
-      <module name="devstudy-jse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devstudy.jse.lection01_classes_objects.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection01_classes_objects.home.StackTest" />
-      <module name="devstudy-jse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="devstudy.jse.lection01_classes_objects.home.*" />
+          <option name="PATTERN" value="net.devstudy.jse.lection03_classes_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.QueueTest" />
+        <item itemvalue="Application.AutoBoxingExample" />
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="Application.EmployeeTest" />
+        <item itemvalue="Application.DataStructureTest" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.StackArray" />
-        <item itemvalue="Application.DynaArrayTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +215,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -158,14 +246,14 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/devstudy/jse/lection02_classes_objects/ForeignStudentTest.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/LinkedListTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StaticTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
