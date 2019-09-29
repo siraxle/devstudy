@@ -41,5 +41,4 @@ public final class ImmutableDataSet extends DataSet{
     public int hashCode() {
         return originalDataSet.hashCode();
     }
-
 }
