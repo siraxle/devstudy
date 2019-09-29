@@ -1,13 +1,13 @@
 package devstudy.jse.lection03_classes_static;
 
-import net.devstudy.jse.lection02_inheritance_polymorph.DynaArray;
+import net.devstudy.jse.lection03_classes_static.DynaArray;
 
 /**
  *
  * @author devstudy
  * @see ..://devstudy.net
  */
-public class Stack extends DataStructure {
+public class Stack<T> extends DataStructure<T> {
 
     public Stack() {
         super(new DynaArray());
@@ -19,8 +19,8 @@ public class Stack extends DataStructure {
     }
 
     @Override
-    protected int[] toArray() {
-        int[] array = new int[dataSet.size()];
+    protected T[] toArray() {
+        T[] array = (T[]) new Object[dataSet.size()];
         for (int i = 0; i < dataSet.size(); i++) {
             array[i] = dataSet.get(dataSet.size() - 1 - i);
         }

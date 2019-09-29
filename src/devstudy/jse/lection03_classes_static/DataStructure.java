@@ -2,7 +2,7 @@ package devstudy.jse.lection03_classes_static;
 
 import java.util.Arrays;
 
-import net.devstudy.jse.lection02_inheritance_polymorph.DataSet;
+import net.devstudy.jse.lection03_classes_static.DataSet;
 
 /**
  *
@@ -10,14 +10,14 @@ import net.devstudy.jse.lection02_inheritance_polymorph.DataSet;
  * @see ..devstudy.net
  */
 public abstract class DataStructure<T> {
-    protected final DataSet dataSet;
+    protected final DataSet<T> dataSet;
 
-    public DataStructure(DataSet dataSet) {
+    public DataStructure(DataSet<T> dataSet) {
         super();
         this.dataSet = dataSet;
     }
 
-    public void add(int element) {
+    public void add(T element) {
         dataSet.add(element);
     }
 
@@ -25,11 +25,11 @@ public abstract class DataStructure<T> {
         return 0;
     }
 
-    public int get() {
+    public T get() {
         return dataSet.remove(getCurrentIndex());
     }
 
-    public int peek() {
+    public T peek() {
         return dataSet.get(getCurrentIndex());
     }
 
@@ -41,7 +41,7 @@ public abstract class DataStructure<T> {
         return size() == 0;
     }
 
-    protected int[] toArray() {
+    protected T[] toArray() {
         return dataSet.toArray();
     }
 
