@@ -2,8 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b368dfe-37ac-4f56-95e8-97553d5880da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ownResearch/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/NumberInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/TransferAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/homeWork/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/homeWork/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/DynaArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/LinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/QueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/StackArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection01_classes_objects/home/StackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/DataStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/DataStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/DynaArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection02_inheritance_polymorph/home/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/DataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/DataStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/DataStructureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/DataUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/DataUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/DynaArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/LinkedList$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/devstudy/jse/lection03_classes_static/home/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DefaultTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DefaultTestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DynaArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/DynaArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection01_classes_objects/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/DataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/DataSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/DynaArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/ForeignStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/ForeignStudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/ImmutableDataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/OverloadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection02_inheritance_polymorph/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/AutoBoxingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/DataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/DataSetAnonymTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/DataSetAnonymTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/DataSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/DynaArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/EmployeeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/LinkedList$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/ObjectToStringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/StaticFinalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/StaticTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/net/devstudy/jse/lection03_classes_static/StringToIntegerConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Factorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Lotereya.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Lotereya.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/MinMaxDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/MinMaxDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Short.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Short.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Substring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devstudy-jse/ownResearch/Substring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/DynaArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/StackArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/DataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/DataStructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/DataStructureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/home/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection02_inheritance_polymorph/home/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/DataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/DataStructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/DataStructureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/DataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/DataUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/DataUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/DataUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/home/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/home/lection03_classes_static/home/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/DefaultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/DefaultTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/DefaultTestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/DefaultTestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/DynaArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/DataSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/DataSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/ForeignStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/ForeignStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/ForeignStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/ForeignStudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/ImmutableDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/ImmutableDataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/OverloadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/OverloadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection02_inheritance_polymorph/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection02_inheritance_polymorph/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/AutoBoxingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/AutoBoxingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DataSetAnonymTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/DataSetAnonymTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DataSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/DataSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/ObjectToStringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/ObjectToStringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StaticFinalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/StaticFinalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/StaticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StringToIntegerConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devstudy/jse/lection03_classes_static/StringToIntegerConverter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +196,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Car">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ownResearch.Car" />
+  <component name="RunManager" selected="Application.StudentTest">
+    <configuration name="DataSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection03_classes_static.DataSetTest" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ownResearch.*" />
+          <option name="PATTERN" value="devstudy.jse.lection03_classes_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ownResearch.Factorial" />
+    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaMethodsProgramming2015.chapter_3.Exam" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ownResearch.*" />
+          <option name="PATTERN" value="JavaMethodsProgramming2015.chapter_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lotereya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ownResearch.Lotereya" />
+    <configuration name="Message" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaMethodsProgramming2015.chapter_3.Message" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ownResearch.*" />
+          <option name="PATTERN" value="JavaMethodsProgramming2015.chapter_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ownResearch.MinMaxDouble" />
+    <configuration name="StaticFinalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="devstudy.jse.lection03_classes_static.StaticFinalTest" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ownResearch.*" />
+          <option name="PATTERN" value="devstudy.jse.lection03_classes_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ownResearch.Substring" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaMethodsProgramming2015.chapter_3.homeWork.StudentTest" />
       <module name="devstudy-jse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ownResearch.*" />
+          <option name="PATTERN" value="JavaMethodsProgramming2015.chapter_3.homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.Lotereya" />
-        <item itemvalue="Application.Substring" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.MinMaxDouble" />
+        <item itemvalue="Application.StudentTest" />
+        <item itemvalue="Application.StaticFinalTest" />
+        <item itemvalue="Application.Exam" />
+        <item itemvalue="Application.DataSetTest" />
+        <item itemvalue="Application.Message" />
       </list>
     </recent_temporary>
   </component>
@@ -190,24 +316,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/devstudy/jse/lection01_classes_objects/StudentTest.java</url>
+          <url>file://$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/StudentTest.java</url>
           <line>5</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/devstudy/jse/lection01_classes_objects/home/LinkedListTest.java</url>
+          <url>file://$PROJECT_DIR$/src/devstudy/jse/home/lection01_classes_objects/home/LinkedListTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/devstudy/jse/lection03_classes_static/StaticTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ownResearch/Car.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/src/JavaMethodsProgramming2015/chapter_3/NumberInfo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

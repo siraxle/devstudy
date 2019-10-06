@@ -1,0 +1,4 @@
+Student{surname='ww', name='null', lastName='null', dateOfBirth=null, address='null', phoneNumber='null', faculty='null', course='null', group='null', id='2'}
+Student{surname='qq', name='null', lastName='null', dateOfBirth=null, address='null', phoneNumber='null', faculty='null', course='null', group='null', id='1'}
+Student{surname='ww', name='null', lastName='null', dateOfBirth=null, address='null', phoneNumber='null', faculty='null', course='null', group='null', id='2'}
+Student{surname='vv', name='null', lastName='null', dateOfBirth=null, address='null', phoneNumber='null', faculty='null', course='null', group='null', id='3'}
