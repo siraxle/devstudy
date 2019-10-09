@@ -164,17 +164,15 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "surname='" + surname + '\'' +
-                ", name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                ", address='" + address + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", faculty='" + faculty + '\'' +
-                ", course='" + course + '\'' +
-                ", group='" + group + '\'' +
-                ", id='" + getId() + '\'' +
-                '}';
+        return        surname +
+                "," + name +
+                "," + lastName +
+                "," + dateOfBirth +
+                "," + address +
+                "," + phoneNumber +
+                "," + faculty +
+                "," + course +
+                "," + group +
+                "," + getId();
     }
 }
