@@ -35,7 +35,7 @@ public class StudentTest {
         }
 //      считывание студентов из файла и запись их в массив студентов
         StudentTest studentTest = new StudentTest();
-        String path = "C:\\Users\\Evgeney\\IdeaProjects\\devstudy-jse\\students.txt";
+        String path = "./Users/Evgeney/IdeaProjects/devstudy-jse/students.txt";
         studentTest.readerDataAboutStudentFromFile(path);
 
     }
@@ -66,7 +66,7 @@ public class StudentTest {
 
     public ArrayList<Student> writerInToArrayOfStudents (Student student){
         ArrayList<Student> arrayOfStudents = new ArrayList<Student>();
-
+        return null;
     }
 
 
