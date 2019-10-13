@@ -1,4 +1,4 @@
-package JavaMethodsProgramming2015.chapter_3.homeWork;
+package JavaMethodsProgramming2015.chapter_3.homeWork.student;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -134,8 +134,8 @@ public class Student {
 //        this.name = in.nextLine();
 //        System.out.println("Enter lastName:");
 //        this.lastName = in.nextLine();
-//        System.out.println("Enter dateOfBirth:");
-//        this.dateOfBirth = readDate();
+        System.out.println("Enter dateOfBirth:");
+        this.dateOfBirth = readDate();
 //        System.out.println("Enter address:");
 //        this.address = in.nextLine();
 //        System.out.println("Enter phoneNumber:");
@@ -164,10 +164,11 @@ public class Student {
 
     @Override
     public String toString() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         return        surname +
                 "," + name +
                 "," + lastName +
-                "," + dateOfBirth +
+                "," + dateFormat.format(dateOfBirth) +
                 "," + address +
                 "," + phoneNumber +
                 "," + faculty +
@@ -175,4 +176,5 @@ public class Student {
                 "," + group +
                 "," + getId();
     }
+
 }
